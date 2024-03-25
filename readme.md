@@ -8,9 +8,9 @@ Given an Axiom and the String Y, find the rule for the predecessor (non-constant
 
 ## Process:
 
-1. Get the Y_A and Y_k's
-2. Get alpha of a and the number of rewritings. Since this is LGIN1, there should only be one non-constant in YChars.
-3. Update the alpha values, the number of occurences of the specific character in the succ(A).
+1. Get the `Y_A` and `Y_k`'s.
+2. Get `alpha of a` and the number of rewritings `n`. Since this is LGIN1, there should only be one non-constant in `YChars`.
+3. Update the alpha values, the number of occurences of the specific character in the `succ(A)`.
 4. Get potential successors.
 5. Check each potential successors to find a solution.
 
