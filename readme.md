@@ -23,9 +23,9 @@ Given an Axiom and the String Y, find the rule for the predecessor (non-constant
 ### Try these:
 
     //Just change the axiom, pre, and Y to infer some l-system with 1 rule.
-        const Y = 'A+[A-A]+[A+[A-A]-A+[A-A]]'
-        const Y = 'A[+A]A[+A[+A]A]A[+A]A[+A[+A]A[+A[+A]A]A[+A]A]A[+A]A[+A[+A]A]A[+A]A';
-        const Y = 'A[A[A[A'
+    const Y = 'A+[A-A]+[A+[A-A]-A+[A-A]]'
+    const Y = 'A[+A]A[+A[+A]A]A[+A]A[+A[+A]A[+A[+A]A]A[+A]A]A[+A]A[+A[+A]A]A[+A]A';
+    const Y = 'A[A[A[A'
 
 ### Source:
 
