@@ -4,7 +4,7 @@ LGIN2 will probably be implemented using python, idk yet. haha
 
 To understand l-system inference better, I need to learn the implementation of the L-system Grammar Induction based on Number theory for 1 rule (LGIN1) method by Nakano and Yamada 2010 (kinda like a starting point).
 
-Given an Axiom and the String Y, find the rule for the present in the string variable (non-constant, predecessor != successor).
+Given an Axiom and the String Y, find the rule for the predecessor (non-constant, predecessor != successor).
 
 ## Process:
 
