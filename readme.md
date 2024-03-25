@@ -8,21 +8,21 @@ Given an Axiom and the String Y, find the rule for the predecessor (non-constant
 
 ## Process:
 
-    1. Get the Y_A and Y_k's
-    2. Get alpha of a and the number of rewritings. Since this is LGIN1, there should only be one non-constant in YChars.
-    3. Update the alpha values, the number of occurences of the specific character in the succ(A).
-    4. Get potential successors.
-    5. Check each potential successors to find a solution.
+1. Get the Y_A and Y_k's
+2. Get alpha of a and the number of rewritings. Since this is LGIN1, there should only be one non-constant in YChars.
+3. Update the alpha values, the number of occurences of the specific character in the succ(A).
+4. Get potential successors.
+5. Check each potential successors to find a solution.
 
 ## Running the code
 
-    1. Make sure you have NodeJS installed.
-    2. Go to the root directory and open it in terminal.
-    3. Type `npm run start`, then enter.
+1. Make sure you have NodeJS installed.
+2. Go to the root directory and open it in terminal.
+3. Type `npm run start`, then enter.
 
 ### Try these:
 
-    Just change the axiom, pre, and Y to infer some l-system with 1 rule.
+    //Just change the axiom, pre, and Y to infer some l-system with 1 rule.
         const Y = 'A+[A-A]+[A+[A-A]-A+[A-A]]'
         const Y = 'A[+A]A[+A[+A]A]A[+A]A[+A[+A]A[+A[+A]A]A[+A]A]A[+A]A[+A[+A]A]A[+A]A';
         const Y = 'A[A[A[A'
