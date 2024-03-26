@@ -2,7 +2,7 @@ import { getAandN, getAlphaOfConstants, getPotentialSuccs, getUniqueChars, testS
 import { LGIN1ProblemSet } from "./problemSet.js"
 
 for (const problem of LGIN1ProblemSet) {
-    console.time('Execution Time')
+    console.time('Execution Time');
     const {axiom, pre, Y} = problem;
     
     var YChars = getUniqueChars(Y);
@@ -32,7 +32,8 @@ for (const problem of LGIN1ProblemSet) {
             break;
         }
     }
-    console.timeEnd('Execution Time')
+    console.timeEnd('Execution Time');
+    console.log();
     
     // FOR DEBUGGING:
     // console.log('an', an)
