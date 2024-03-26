@@ -65,5 +65,5 @@ export function testSuccs(axiom, n, pre, goal, succs) {
         }
         if (currentSentence === goal) solution = succ;
     }
-    return solution || "No solution found";
+    return solution || null;
 }
