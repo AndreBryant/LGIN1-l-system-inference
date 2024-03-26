@@ -20,13 +20,6 @@ Given an Axiom and the String Y, find the rule for the predecessor (non-constant
 2. Go to the root directory and open it in terminal.
 3. Type `npm run start`, then enter.
 
-### Try these:
-
-    //Just change the axiom, pre, and Y to infer some l-system with 1 rule.
-    const Y = 'A+[A-A]+[A+[A-A]-A+[A-A]]'
-    const Y = 'A[+A]A[+A[+A]A]A[+A]A[+A[+A]A[+A[+A]A]A[+A]A]A[+A]A[+A[+A]A]A[+A]A';
-    const Y = 'A[A[A[A'
-
 ### Source:
 
     Nakano, R., Yamada, N.: Number theory-based induction of deterministic context-
